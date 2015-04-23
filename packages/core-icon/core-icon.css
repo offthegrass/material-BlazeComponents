@@ -1,0 +1,12 @@
+core-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    color: inherit;
+    fill: currentcolor;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    padding: 4px;
+    border-radius: 50%;
+}

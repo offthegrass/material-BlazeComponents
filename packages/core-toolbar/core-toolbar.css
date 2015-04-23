@@ -1,0 +1,63 @@
+core-toolbar {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 64px;
+    font-size: 1.3em;
+    background-color: #4285f4;
+    color: #fff;
+}
+
+core-toolbar.medium-tall {
+    height: 128px;
+}
+
+core-toolbar.tall {
+    height: 192px;
+}
+
+.toolbar-tools {
+    position: relative;
+    height: 64px;
+    padding: 0 8px;
+    pointer-events: none;
+}
+
+/* middle bar */
+#middleBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+core-toolbar.tall #middleBar, core-toolbar.medium-tall #middleBar {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+/* bottom bar */
+#bottomBar {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* make elements (e.g. buttons) respond to mouse/touch events */
+
+core-toolbar .toolbar-tools > *:not([disabled]) {
+    pointer-events: auto;
+}
+
+/* elements spacing */
+core-toolbar .toolbar-tools > * {
+    margin: 0 8px;
+}
+
+/* misc helpers */
+
+core-toolbar .toolbar-tools > .indent {
+    margin-left: 60px;
+}

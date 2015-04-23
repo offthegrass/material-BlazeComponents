@@ -1,0 +1,23 @@
+<template name="CoreToolbar">
+    <core-toolbar>
+
+        <!-- requires FlowLayout to yield into different areas. Not currently supported by BlazeComponents
+
+        <div id="bottomBar" class="toolbar-tools" center horizontal layout>
+
+        </div>
+
+        -->
+
+        <div id="middleBar" class="toolbar-tools" center horizontal layout>
+            {{> Template.contentBlock}}
+        </div>
+
+        <!--
+        <div id="topBar" class="toolbar-tools" center horizontal layout>
+
+        </div>
+        -->
+
+    </core-toolbar>
+</template>

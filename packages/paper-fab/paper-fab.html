@@ -1,0 +1,11 @@
+<template name="PaperFab">
+
+    <paper-fab layout vertical center center-justified>
+        {{#if Template.contentBlock}}
+            {{> Template.contentBlock}}
+        {{else}}
+            {{> CoreIcon icon='add'}}
+        {{/if}}
+    </paper-fab>
+
+</template>

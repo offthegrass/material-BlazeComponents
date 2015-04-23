@@ -1,0 +1,21 @@
+paper-fab {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+paper-fab:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+}

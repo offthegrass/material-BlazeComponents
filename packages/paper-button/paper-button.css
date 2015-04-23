@@ -1,0 +1,30 @@
+paper-button {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 5.14em;
+    text-align: center;
+    font: inherit;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 3px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    z-index: 0;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    background: white;
+}
+
+paper-button .button-content {
+    padding: 0.7em 0.57em;
+}
+
+paper-button:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+}

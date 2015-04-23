@@ -1,0 +1,25 @@
+<template name="CoreDrawerPanel">
+    <core-drawer-panel fit layout horizontal>
+
+        <div drawer layout vertical>
+            {{> CoreToolbar}}
+        </div>
+
+        <div main flex layout vertical>
+            {{# CoreToolbar}}
+                {{> PaperIconButton icon='menu' attr='open-drawer'}}
+            {{/CoreToolbar}}
+
+            <div class="content" flex>
+                {{# PaperButton}}
+                    BUTTON
+                {{/PaperButton}}
+
+                {{> PaperFab}}
+
+            </div>
+        </div>
+
+    </core-drawer-panel>
+
+</template>
